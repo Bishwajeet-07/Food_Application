@@ -43,7 +43,7 @@ const Body = () => {
 
             <ListOfItems bannerItem={listOfItems} />
 
-            <h2 className=" text-white text-3xl font-bold mt-6">Top Restaurant</h2>
+            <h2 className=" text-white text-2xl md:text-3xl font-bold mt-6">Top Restaurant</h2>
             <div className=" flex flex-col md:flex-row  mt-4">
                 <div className=" w-full flex justify-between sm:justify-normal">
                     <input type="text" value={keyvalue} placeholder="Search Items" className=" w-full md:max-w-96 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all text-black" onChange={(e) => {
@@ -58,7 +58,7 @@ const Body = () => {
 
                 <div className=" flex justify-center md:justify-end  items-center w-full mt-4 sm:mt-0">
                     <div className="m mx-2" >
-                        <button className=" text-[14px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
+                        <button className=" text-[13px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
                             const datanew = listOfRestaurants.filter((res) => res?.info?.avgRating > 4.5)
                             // setlistOfRasturants(datanew)
                             setSearchData(datanew)
@@ -67,7 +67,7 @@ const Body = () => {
                         </button>
                     </div>
                     <div className=" mx-2" >
-                        <button className="text-[14px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
+                        <button className="text-[13px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
                             const datanew = listOfRestaurants.filter((res) => res?.info?.avgRating > 4.0)
                             // setlistOfRasturants(datanew)
                             setSearchData(datanew)
@@ -76,7 +76,7 @@ const Body = () => {
                         </button>
                     </div>
                     <div className=" mx-2">
-                        <button className="text-[14px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
+                        <button className="text-[13px] p-1 sm:px-4 sm:py-2 sm:text-xl  text-black rounded-md bg-white" onClick={() => {
                             const datanew = listOfRestaurants.filter((res) => res?.info?.sla?.deliveryTime < 20)
                             // setlistOfRasturants(datanew)
                             setSearchData(datanew)

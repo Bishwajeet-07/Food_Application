@@ -39,7 +39,7 @@ const CardMenuComponent = () => {
     return (
         <div>
             <h1 className=" w-full md:w-8/12 text-3xl m-auto mt-6 font-bold text-white">{name}</h1>
-            <div className="w-full md:w-8/12  m-auto mt-6 shadow-sm rounded-md bg-zinc-900 shadow-gray-700 p-5">
+            <div className="w-full md:w-8/12  m-auto mt-6 shadow-sm rounded-md bg-neutral-800 shadow-gray-700 p-5">
                 <div className=" text-white ">
                     <span>{avgRatingString} ({(totalRatingsString)}) - {costForTwoMessage}</span>
                     <p className=" text-yellow-400">{cuisines}</p>

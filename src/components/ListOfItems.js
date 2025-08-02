@@ -9,7 +9,7 @@ const ListOfItems = (props) => {
 
     return (
         <div>
-            <h2 className=" text-white mt-6 text-3xl font-bold">What's in Your Mind?</h2>
+            <h2 className=" text-white mt-6 text-2xl md:text-3xl font-bold">What's in Your Mind?</h2>
             <div className=" flex overflow-scroll mt-4 rounded-lg">
 
                 {bannerItem.map((banner, i) => {
