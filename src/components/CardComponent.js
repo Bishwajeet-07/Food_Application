@@ -6,7 +6,7 @@ const CardComponent = (props) => {
 
 
     return (
-        <div className="card-data m-1 mt-10 md:m-4 w-44 md:w-60">
+        <div className="card-data m-1 mt-10 md:m-4 w-36 md:w-60">
             <div className="img-div h-36 md:h-44">
                 <img className="card-img" src={IMG_URL + resdata?.info?.cloudinaryImageId} />
             </div>

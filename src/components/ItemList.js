@@ -11,7 +11,9 @@ const ItemList = ({ item }) => {
     const handleAdd = (itemdata) => {
         dispatch(addItem(itemdata))
         // console.log("click")
-        toast.success("Added to Cart !")
+        toast.success("Added to Cart !", {
+            position: "bottom-right",
+        })
     }
 
     // console.log(item)

@@ -11,12 +11,12 @@ const HeadComponent = () => {
     const cartItems = useSelector((store) => store.cart.items)
     // console.log(cartItems)
     return (
-        <div className="flex items-center rounded-md justify-between px-2 md:px-6  py-2 bg-white shadow-md">
+        <div className="flex items-center rounded-md justify-between  md:px-6  py-2 bg-white shadow-md">
             {/* Logo */}
             <img className="h-12 w-auto" src={LOGO_URL} alt="Logo" />
 
             {/* Navigation Links */}
-            <ul className="flex justify-center items-center space-x-2 sm:space-x-6 md:space-x-6 text-gray-700 font-medium">
+            <ul className="flex justify-center items-center space-x-1 sm:space-x-6 md:space-x-6 text-gray-700 font-medium">
                 <li>
                     <Link className="hover:text-emerald-600 transition" to="/">Home</Link>
                 </li>
