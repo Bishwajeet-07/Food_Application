@@ -1,6 +1,7 @@
+
 import { Mail, Github, Linkedin, Twitter, Heart } from 'lucide-react';
 
-const AboutComponent = () => {
+const Contact = () => {
     const currentYear = new Date().getFullYear();
 
     const socialLinks = [
@@ -54,6 +55,10 @@ const AboutComponent = () => {
                         <p className="text-sm text-muted-foreground">
                             Available for freelance opportunities
                         </p>
+                        <div className=' flex justify-center items-center'>
+                            <a className=' bg-yellow-500 py-2 px-4 text-xl rounded-md text-white text-center' href='https://portfolio-three-taupe-xauhh4b7f7.vercel.app/' target='_blank' >Portfolio</a>
+
+                        </div>
                     </div>
                 </div>
 
@@ -63,4 +68,4 @@ const AboutComponent = () => {
     );
 };
 
-export default AboutComponent;
+export default Contact;

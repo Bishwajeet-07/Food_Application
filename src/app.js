@@ -11,6 +11,7 @@ import appStore from "./utils/appStore";
 import BillingSummary from "./components/BillingSummary";
 import Footer from "./components/Footer";
 import SpecificCard from "./SpecificCard";
+import Contact from "./components/Contact";
 
 const AppLayout = () => {
 
@@ -39,6 +40,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/about",
                 element: <AboutComponent />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
             },
             {
                 path: "/cart",
