@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "postcss": "^8.4.45",
+    "process": "^0.11.10",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.535.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.1",
+    "react-toastify": "^11.0.5",
+    "tailwind-merge": "^3.3.1",
+    "tw-animate-css": "^1.3.6"
+  }
+}
