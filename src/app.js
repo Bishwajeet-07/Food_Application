@@ -8,9 +8,8 @@ import AboutComponent from "./components/AboutComponent";
 import CardMenuComponent from "./components/CardMenuComponent";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
-import CardSection from "./components/CardSection";
 import BillingSummary from "./components/BillingSummary";
-import Footer from "./components/footer";
+import Footer from "./components/Footerr";
 import SpecificCard from "./SpecificCard";
 
 const AppLayout = () => {
